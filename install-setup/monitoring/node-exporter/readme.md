@@ -1,17 +1,11 @@
 
 Install:
 ```bash
-bash <(curl -s https://host.leicraftmc.de/assets/node-exporter-scripts/install-ne.sh)
+bash <(curl -s https://raw.githubusercontent.com/LeiCraftMC/Useful-Scripts/refs/heads/main/install-setup/monitoring/node-exporter/install.sh)
 ```
 
 Setup:
 
-with `apache2-utils` pre-installed
 ```bash
-bash <(curl -s https://host.leicraftmc.de/assets/node-exporter-scripts/setpw-ne.sh)
-```
-
-without `apache2-utils` pre-installed
-```bash
-apt install apache2-utils && bash <(curl -s https://host.leicraftmc.de/assets/node-exporter-scripts/setpw-ne.sh) && apt remove --purge apache2-utils
+bash <(curl -s https://raw.githubusercontent.com/LeiCraftMC/Useful-Scripts/refs/heads/main/install-setup/monitoring/node-exporter/setup.sh)
 ```
