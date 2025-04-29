@@ -23,7 +23,8 @@ echo "Clear password to keep for Prometheus Server: ${password}"
 config_file="/etc/prometheus_node_exporter/configuration.yml"
 if grep -q "basic_auth_users:" "${config_file}" && grep -q "prometheus:" "${config_file}"; then
     # Replace the existing hashed password
-    sudo sed -i "s/\(prometheus:\s*\).*/\1${passwordHashed}/" "${config_file}"
+    escaped=$(printf '%s\n' "$passwordHashed" | sed -e 's/[\/&]/\\&/g')
+    sudo sed -i "s|\(prometheus:\s*\).*|\1${escaped}|" "$config_file"
 else
     # Append the new configuration
     sudo cat << EOF >> "${config_file}"
