@@ -9,8 +9,8 @@ is_apache2_utils_installed=$(is_package_installed apache2-utils)
 
 if [[ "${is_apache2_utils_installed}" == "false" ]]; then
     echo "apache2-utils is not installed. Installing it now..."
-    sudo apt-get update
-    sudo apt-get install -y apache2-utils
+    sudo apt-get update &> /dev/null
+    sudo apt-get install -y apache2-utils &> /dev/null
 else
     echo "apache2-utils is already installed."
 fi
@@ -36,7 +36,7 @@ fi
 
 if [[ "${is_apache2_utils_installed}" == "false" ]]; then
     echo "Removing apache2-utils..."
-    sudo apt-get remove --purge -y apache2-utils
+    sudo apt-get remove --purge -y apache2-utils &> /dev/null
 fi
 
 # Restart node_exporter
