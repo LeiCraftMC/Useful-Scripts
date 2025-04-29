@@ -19,9 +19,19 @@ password=$(openssl rand -base64 32)
 passwordHashed=$(echo ${password} | htpasswd -inBC 10 "" | tr -d ':\n')
 echo "Clear password to keep for Prometheus Server: ${password}"
 
-sudo cat << EOF >> /etc/prometheus_node_exporter/configuration.yml                                                                basic_auth_users:                                                  prometheus: ${passwordHashed}
-
+# Check if basic_auth_users: prometheus already exists in the configuration file
+config_file="/etc/prometheus_node_exporter/configuration.yml"
+if grep -q "basic_auth_users:" "${config_file}" && grep -q "prometheus:" "${config_file}"; then
+    # Replace the existing hashed password
+    sudo sed -i "s/\(prometheus:\s*\).*/\1${passwordHashed}/" "${config_file}"
+else
+    # Append the new configuration
+    sudo cat << EOF >> "${config_file}"
+basic_auth_users:
+  prometheus: ${passwordHashed}
 EOF
+fi
+
 
 
 if [[ "${is_apache2_utils_installed}" == "false" ]]; then
