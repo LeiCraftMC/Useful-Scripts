@@ -47,6 +47,7 @@ Move Emails Manually to your SPAM folder in your E-MAIL Client and then run
 ```bash
 # change the command below depending on where your spam/ham folders are
 
+# The --sync flag syncs the user's learned spam/ham to the system-wide Bayes database. if you want it per user remove it
 sudo sa-learn --spam /home/*/Maildir/.spam/{cur,new} --sync
 # if .ham exists run
 sudo sa-learn --ham /home/*/Maildir/.ham/{cur,new} --sync
