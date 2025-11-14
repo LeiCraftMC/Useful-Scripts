@@ -57,6 +57,10 @@ sudo sa-learn --spam /home/*/Maildir/.Spam/{cur,new} --sync
 # if .ham exists run
 sudo sa-learn --ham /home/*/Maildir/.Ham/{cur,new} --sync
 ```
+After that check byte training status
+```bash
+sa-learn --dump
+```
 
 ## ClamAV Configuration
 
