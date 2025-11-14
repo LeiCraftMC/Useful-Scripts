@@ -1,7 +1,7 @@
 # Best Practises for Configuring Mail-SPAM Filters with Virtualmin Setup
 
 ## Postfix Configuration
-In the file `/etc/postfix/master.cf` replace:
+In the file `/etc/postfix/main.cf` replace:
 ```
 smtpd_recipient_restrictions = permit_mynetworks permit_sasl_authenticated reject_unauth_destination
 ```
@@ -34,6 +34,8 @@ skip_rbl_checks 0
 Reload Postfix:
 ```bash
 sudo systemctl reload spamassassin
+# depending on your system the service could live under spamd
+sudo systemctl restart spamd
 ```
 
 ### Data Training:
@@ -45,14 +47,18 @@ sudo sa-learn --spam /home/*/Maildir/.spam/{cur,new}
 
 ## ClamAV Configuration
 
-Backup your existing ClamAV Config under `/var/lib/clamav`:
+Backup your existing ClamAV DB under `/var/lib/clamav`:
 ```bash
 tar -czpf "/root/clamav-db-backup-$(date +%Y%m%d_%H%M%S).tar.gz" -C /var/lib clamav
 ```
 
-Run the command below regually to get the newest Sanesecurity Config
+Run the command below regually to get the newest Sanesecurity DB
 ```bash
 sudo rsync -av --delete rsync://rsync.sanesecurity.net/sanesecurity /var/lib/clamav
+```
+or add it to cron:
+```
+0 */6 * * * root rsync -av --delete rsync://rsync.sanesecurity.net/sanesecurity /var/lib/clamav && systemctl restart clamav-daemon
 ```
 
 Reload ClamAV:
