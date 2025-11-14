@@ -28,6 +28,7 @@ use_bayes 1
 use_bayes_rules 1
 use_auto_whitelist 1
 bayes_auto_learn 1
+# ensures RBL checks are not skipped
 skip_rbl_checks 0
 ```
 Reload Postfix:
