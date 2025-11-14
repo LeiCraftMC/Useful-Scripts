@@ -55,10 +55,11 @@ tar -czpf "/root/clamav-db-backup-$(date +%Y%m%d_%H%M%S).tar.gz" -C /var/lib cla
 Run the command below regually to get the newest Sanesecurity DB
 ```bash
 sudo rsync -av --delete rsync://rsync.sanesecurity.net/sanesecurity /var/lib/clamav
+sudo chown -R clamav:clamav /var/lib/clamav/
 ```
 or add it to cron:
 ```
-0 */6 * * * root rsync -av --delete rsync://rsync.sanesecurity.net/sanesecurity /var/lib/clamav && systemctl restart clamav-daemon
+0 */6 * * * root rsync -av --delete rsync://rsync.sanesecurity.net/sanesecurity /var/lib/clamav && && chown -R clamav:clamav /var/lib/clamav/ && systemctl restart clamav-daemon
 ```
 
 Reload ClamAV:
