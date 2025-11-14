@@ -41,8 +41,16 @@ sudo systemctl restart spamd
 ### Data Training:
 Move Emails Manually to your SPAM folder in your E-MAIL Client and then run
 ```bash
-# chnage the command below depending on where your spam folder is
+# chnage the command below depending on where your spam/ham folder are
+
 sudo sa-learn --spam /home/*/Maildir/.spam/{cur,new}
+# if .ham exists run
+sudo sa-learn --ham /home/*/Maildir/.ham/{cur,new}
+
+# or if folder are .Spam .Ham
+sudo sa-learn --spam /home/*/Maildir/.Spam/{cur,new}
+# if .ham exists run
+sudo sa-learn --ham /home/*/Maildir/.Ham/{cur,new}
 ```
 
 ## ClamAV Configuration
