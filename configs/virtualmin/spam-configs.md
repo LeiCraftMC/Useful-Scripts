@@ -74,12 +74,12 @@ Run the command below regularly to get the newest Sanesecurity DB
 sudo rsync -av --delete rsync://rsync.sanesecurity.net/sanesecurity /var/lib/clamav
 sudo chown -R clamav:clamav /var/lib/clamav/
 ```
-or add it to cron:
-```
-0 */6 * * * root rsync -av --delete rsync://rsync.sanesecurity.net/sanesecurity /var/lib/clamav && chown -R clamav:clamav /var/lib/clamav && systemctl restart clamav-daemon
-```
-
 Reload ClamAV:
 ```bash
 sudo systemctl restart clamav-daemon
+```
+
+or add it to cron:
+```
+0 */6 * * * root rsync -av --delete rsync://rsync.sanesecurity.net/sanesecurity /var/lib/clamav && chown -R clamav:clamav /var/lib/clamav && systemctl restart clamav-daemon
 ```
