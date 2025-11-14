@@ -15,9 +15,13 @@ smtpd_recipient_restrictions =
     reject_rbl_client bl.spamcop.net,
     reject_rbl_client b.barracudacentral.org
 ```
-Reload Postfix:
+Reload Postfix and SpamAssassin
 ```bash
 sudo systemctl reload postfix
+
+sudo systemctl reload spamassassin
+# depending on your system the service could live under spamd
+sudo systemctl restart spamd
 ```
 
 ## SpamAssassin Configuration
@@ -31,7 +35,7 @@ bayes_auto_learn 1
 # ensures RBL checks are not skipped
 skip_rbl_checks 0
 ```
-Reload Postfix:
+Reload SpamAssassin:
 ```bash
 sudo systemctl reload spamassassin
 # depending on your system the service could live under spamd
@@ -41,33 +45,33 @@ sudo systemctl restart spamd
 ### Data Training:
 Move Emails Manually to your SPAM folder in your E-MAIL Client and then run
 ```bash
-# chnage the command below depending on where your spam/ham folder are
+# change the command below depending on where your spam/ham folders are
 
-sudo sa-learn --spam /home/*/Maildir/.spam/{cur,new}
+sudo sa-learn --spam /home/*/Maildir/.spam/{cur,new} --sync
 # if .ham exists run
-sudo sa-learn --ham /home/*/Maildir/.ham/{cur,new}
+sudo sa-learn --ham /home/*/Maildir/.ham/{cur,new} --sync
 
 # or if folder are .Spam .Ham
-sudo sa-learn --spam /home/*/Maildir/.Spam/{cur,new}
+sudo sa-learn --spam /home/*/Maildir/.Spam/{cur,new} --sync
 # if .ham exists run
-sudo sa-learn --ham /home/*/Maildir/.Ham/{cur,new}
+sudo sa-learn --ham /home/*/Maildir/.Ham/{cur,new} --sync
 ```
 
 ## ClamAV Configuration
 
-Backup your existing ClamAV DB under `/var/lib/clamav`:
+Backup your existing ClamAV virus-definition DB under `/var/lib/clamav`:
 ```bash
 tar -czpf "/root/clamav-db-backup-$(date +%Y%m%d_%H%M%S).tar.gz" -C /var/lib clamav
 ```
 
-Run the command below regually to get the newest Sanesecurity DB
+Run the command below regularly to get the newest Sanesecurity DB
 ```bash
 sudo rsync -av --delete rsync://rsync.sanesecurity.net/sanesecurity /var/lib/clamav
 sudo chown -R clamav:clamav /var/lib/clamav/
 ```
 or add it to cron:
 ```
-0 */6 * * * root rsync -av --delete rsync://rsync.sanesecurity.net/sanesecurity /var/lib/clamav && && chown -R clamav:clamav /var/lib/clamav/ && systemctl restart clamav-daemon
+0 */6 * * * root rsync -av --delete rsync://rsync.sanesecurity.net/sanesecurity /var/lib/clamav && chown -R clamav:clamav /var/lib/clamav/ && systemctl restart clamav-daemon
 ```
 
 Reload ClamAV:
