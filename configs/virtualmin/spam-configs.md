@@ -59,14 +59,14 @@ sudo sa-learn --ham /home/*/Maildir/.Ham/{cur,new} --sync
 ```
 After that check byte training status
 ```bash
-sa-learn --dump
+sudo sa-learn --dump
 ```
 
 ## ClamAV Configuration
 
 Backup your existing ClamAV virus-definition DB under `/var/lib/clamav`:
 ```bash
-tar -czpf "/root/clamav-db-backup-$(date +%Y%m%d_%H%M%S).tar.gz" -C /var/lib clamav
+sudo tar -czpf "/root/clamav-db-backup-$(date +%Y%m%d_%H%M%S).tar.gz" -C /var/lib clamav
 ```
 
 Run the command below regularly to get the newest Sanesecurity DB
