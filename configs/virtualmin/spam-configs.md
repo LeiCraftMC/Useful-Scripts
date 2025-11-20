@@ -11,9 +11,23 @@ smtpd_recipient_restrictions =
     permit_mynetworks
     permit_sasl_authenticated
     reject_unauth_destination
-	reject_rbl_client zen.spamhaus.org=127.0.0.[2..11]
+    
+    reject_invalid_hostname
+    reject_non_fqdn_hostname
+    reject_non_fqdn_sender
+    reject_non_fqdn_recipient
+    reject_unknown_sender_domain
+    reject_unknown_recipient_domain
+
+    reject_rbl_client zen.spamhaus.org=127.0.0.[2..11]
+    reject_rhsbl_sender dbl.spamhaus.org=127.0.1.[2..99]
+    reject_rhsbl_helo dbl.spamhaus.org=127.0.1.[2..99]
+    reject_rhsbl_reverse_client dbl.spamhaus.org=127.0.1.[2..99]
+    warn_if_reject reject_rbl_client zen.spamhaus.org=127.255.255.[1..255]
     reject_rbl_client bl.spamcop.net=127.0.0.[2..11]
     reject_rbl_client b.barracudacentral.org=127.0.0.2
+    
+    permit
 ```
 Reload Postfix and SpamAssassin
 ```bash
