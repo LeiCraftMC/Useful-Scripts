@@ -10,28 +10,28 @@ This script safely removes unused Docker containers, images, volumes, networks, 
 #!/bin/bash
 
 # Clean up unused containers, images, networks, volumes
-docker system prune -af --volumes
+docker system prune -af --filter "until=1h"
 echo "Pruned System"
 
 # Remove unused containers directly
-docker container prune -f
+docker container prune -f --filter "until=1h"
 echo "Pruned Networks"
 
 # Remove unused images directly
-docker image prune -af
+docker image prune -af --filter "until=1h"
+echo "Pruned Networks"
+
+# Remove all unused build cache directly
+docker builder prune -af --filter "until=1h"
+echo "Pruned Build Cache"
+
+# Remove unused networks directly
+docker network prune -f --filter "until=1h"
 echo "Pruned Networks"
 
 # Remove dangling volumes directly
 docker volume prune -af
 echo "Pruned Volumes"
-
-# Remove all unused build cache directly
-docker builder prune -af
-echo "Pruned Build Cache"
-
-# Remove unused networks directly
-docker network prune -f
-echo "Pruned Networks"
 
 exit 0
 ```
