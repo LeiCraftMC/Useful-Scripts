@@ -22,6 +22,7 @@ docker builder prune -af --filter "until=24h"
 docker network prune -f --filter "until=24h"
 
 exit 0
+```
 
 #### Then make it executable:
 ```bash
