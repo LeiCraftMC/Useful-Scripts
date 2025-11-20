@@ -31,7 +31,11 @@ Edit root’s crontab with:
 sudo crontab -e
 ```
 
-Run cleanup every hour
+Run cleanup every hour:
 ```bash
 0 * * * * /usr/local/bin/gitlab-runner-cleanup.sh > /var/log/gitlab-runner-cleanup.log
+```
+Without logging:
+```bash
+0 * * * * /usr/local/bin/gitlab-runner-cleanup.sh >/dev/null 2>&1
 ```
