@@ -4,7 +4,7 @@ This script safely removes unused Docker containers, images, volumes, networks, 
 
 ---
 
-#### Create the cleanup script at `/usr/local/bin/gitlab-runner-cleanup.sh`:
+#### Create the cleanup script at `/usr/local/bin/gitlab-runner-cleanup`:
 
 ```bash
 #!/bin/bash
@@ -26,7 +26,7 @@ exit 0
 
 #### Then make it executable:
 ```bash
-sudo chmod +x /usr/local/bin/gitlab-runner-cleanup.sh
+sudo chmod +x /usr/local/bin/gitlab-runner-cleanup
 ```
 
 #### Add a cron job
@@ -38,9 +38,9 @@ sudo crontab -e
 
 Run cleanup every hour:
 ```bash
-0 * * * * /usr/local/bin/gitlab-runner-cleanup.sh > /var/log/gitlab-runner-cleanup.log 2>&1
+0 * * * * /usr/local/bin/gitlab-runner-cleanup > /var/log/gitlab-runner-cleanup.log 2>&1
 ```
 Without logging:
 ```bash
-0 * * * * /usr/local/bin/gitlab-runner-cleanup.sh >/dev/null 2>&1
+0 * * * * /usr/local/bin/gitlab-runner-cleanup >/dev/null 2>&1
 ```
