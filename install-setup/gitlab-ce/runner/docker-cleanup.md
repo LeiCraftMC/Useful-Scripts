@@ -10,7 +10,7 @@ This script safely removes unused Docker containers, images, volumes, networks, 
 #!/bin/bash
 
 # Clean up unused containers, images, networks, volumes older than 24h
-docker system prune -af --volumes --filter "until=24h"
+docker system prune -af --filter "until=24h"
 
 # Remove dangling volumes directly (safety)
 docker volume prune -f --filter "until=24h"
