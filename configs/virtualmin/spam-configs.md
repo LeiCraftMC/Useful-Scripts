@@ -8,12 +8,12 @@ smtpd_recipient_restrictions = permit_mynetworks permit_sasl_authenticated rejec
 With:
 ```
 smtpd_recipient_restrictions =
-    permit_mynetworks,
-    permit_sasl_authenticated,
-    reject_unauth_destination,
-    reject_rbl_client zen.spamhaus.org,
-    reject_rbl_client bl.spamcop.net,
-    reject_rbl_client b.barracudacentral.org
+    permit_mynetworks
+    permit_sasl_authenticated
+    reject_unauth_destination
+	reject_rbl_client zen.spamhaus.org=127.0.0.[2..11]
+    reject_rbl_client bl.spamcop.net=127.0.0.[2..11]
+    reject_rbl_client b.barracudacentral.org=127.0.0.2
 ```
 Reload Postfix and SpamAssassin
 ```bash
