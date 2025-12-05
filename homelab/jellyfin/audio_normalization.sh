@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -eo pipefail
 
-# Made  by Bensonheimer992
+# Made by Bensonheimer992 (https://git.bencraft.cloud/alex/scripts)
 
 # Konfiguration
 TEMP_PREFIX=".tmp_$(date +%s)_"
