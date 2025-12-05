@@ -1,14 +1,7 @@
 #!/usr/bin/env bash
 set -eo pipefail
 
-# ---------------------------
-# Ultimate Audio Manager v7.0 by Bensonheimer992
-# ---------------------------
-# Geänderte Funktionalität:
-# - Verarbeitet alle Audiospuren korrekt
-# - Dynamische Qualitätseinstellung basierend auf Kanalanzahl
-# - Korrekte Stream-Index-Zuordnung
-# ---------------------------
+# Made  by Bensonheimer992
 
 # Konfiguration
 TEMP_PREFIX=".tmp_$(date +%s)_"
