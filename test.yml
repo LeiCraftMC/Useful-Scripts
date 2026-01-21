@@ -1,0 +1,2701 @@
+public-resources:
+  resource-pbx-rtp-10501-udp:
+    name: PBX-RTP UDP 10501
+    protocol: udp
+    proxy-port: 10501
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10501
+
+  resource-pbx-rtp-10502-udp:
+    name: PBX-RTP UDP 10502
+    protocol: udp
+    proxy-port: 10502
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10502
+
+  resource-pbx-rtp-10503-udp:
+    name: PBX-RTP UDP 10503
+    protocol: udp
+    proxy-port: 10503
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10503
+
+  resource-pbx-rtp-10504-udp:
+    name: PBX-RTP UDP 10504
+    protocol: udp
+    proxy-port: 10504
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10504
+
+  resource-pbx-rtp-10505-udp:
+    name: PBX-RTP UDP 10505
+    protocol: udp
+    proxy-port: 10505
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10505
+
+  resource-pbx-rtp-10506-udp:
+    name: PBX-RTP UDP 10506
+    protocol: udp
+    proxy-port: 10506
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10506
+
+  resource-pbx-rtp-10507-udp:
+    name: PBX-RTP UDP 10507
+    protocol: udp
+    proxy-port: 10507
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10507
+
+  resource-pbx-rtp-10508-udp:
+    name: PBX-RTP UDP 10508
+    protocol: udp
+    proxy-port: 10508
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10508
+
+  resource-pbx-rtp-10509-udp:
+    name: PBX-RTP UDP 10509
+    protocol: udp
+    proxy-port: 10509
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10509
+
+  resource-pbx-rtp-10510-udp:
+    name: PBX-RTP UDP 10510
+    protocol: udp
+    proxy-port: 10510
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10510
+
+  resource-pbx-rtp-10511-udp:
+    name: PBX-RTP UDP 10511
+    protocol: udp
+    proxy-port: 10511
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10511
+
+  resource-pbx-rtp-10512-udp:
+    name: PBX-RTP UDP 10512
+    protocol: udp
+    proxy-port: 10512
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10512
+
+  resource-pbx-rtp-10513-udp:
+    name: PBX-RTP UDP 10513
+    protocol: udp
+    proxy-port: 10513
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10513
+
+  resource-pbx-rtp-10514-udp:
+    name: PBX-RTP UDP 10514
+    protocol: udp
+    proxy-port: 10514
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10514
+
+  resource-pbx-rtp-10515-udp:
+    name: PBX-RTP UDP 10515
+    protocol: udp
+    proxy-port: 10515
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10515
+
+  resource-pbx-rtp-10516-udp:
+    name: PBX-RTP UDP 10516
+    protocol: udp
+    proxy-port: 10516
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10516
+
+  resource-pbx-rtp-10517-udp:
+    name: PBX-RTP UDP 10517
+    protocol: udp
+    proxy-port: 10517
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10517
+
+  resource-pbx-rtp-10518-udp:
+    name: PBX-RTP UDP 10518
+    protocol: udp
+    proxy-port: 10518
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10518
+
+  resource-pbx-rtp-10519-udp:
+    name: PBX-RTP UDP 10519
+    protocol: udp
+    proxy-port: 10519
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10519
+
+  resource-pbx-rtp-10520-udp:
+    name: PBX-RTP UDP 10520
+    protocol: udp
+    proxy-port: 10520
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10520
+
+  resource-pbx-rtp-10521-udp:
+    name: PBX-RTP UDP 10521
+    protocol: udp
+    proxy-port: 10521
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10521
+
+  resource-pbx-rtp-10522-udp:
+    name: PBX-RTP UDP 10522
+    protocol: udp
+    proxy-port: 10522
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10522
+
+  resource-pbx-rtp-10523-udp:
+    name: PBX-RTP UDP 10523
+    protocol: udp
+    proxy-port: 10523
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10523
+
+  resource-pbx-rtp-10524-udp:
+    name: PBX-RTP UDP 10524
+    protocol: udp
+    proxy-port: 10524
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10524
+
+  resource-pbx-rtp-10525-udp:
+    name: PBX-RTP UDP 10525
+    protocol: udp
+    proxy-port: 10525
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10525
+
+  resource-pbx-rtp-10526-udp:
+    name: PBX-RTP UDP 10526
+    protocol: udp
+    proxy-port: 10526
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10526
+
+  resource-pbx-rtp-10527-udp:
+    name: PBX-RTP UDP 10527
+    protocol: udp
+    proxy-port: 10527
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10527
+
+  resource-pbx-rtp-10528-udp:
+    name: PBX-RTP UDP 10528
+    protocol: udp
+    proxy-port: 10528
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10528
+
+  resource-pbx-rtp-10529-udp:
+    name: PBX-RTP UDP 10529
+    protocol: udp
+    proxy-port: 10529
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10529
+
+  resource-pbx-rtp-10530-udp:
+    name: PBX-RTP UDP 10530
+    protocol: udp
+    proxy-port: 10530
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10530
+
+  resource-pbx-rtp-10531-udp:
+    name: PBX-RTP UDP 10531
+    protocol: udp
+    proxy-port: 10531
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10531
+
+  resource-pbx-rtp-10532-udp:
+    name: PBX-RTP UDP 10532
+    protocol: udp
+    proxy-port: 10532
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10532
+
+  resource-pbx-rtp-10533-udp:
+    name: PBX-RTP UDP 10533
+    protocol: udp
+    proxy-port: 10533
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10533
+
+  resource-pbx-rtp-10534-udp:
+    name: PBX-RTP UDP 10534
+    protocol: udp
+    proxy-port: 10534
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10534
+
+  resource-pbx-rtp-10535-udp:
+    name: PBX-RTP UDP 10535
+    protocol: udp
+    proxy-port: 10535
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10535
+
+  resource-pbx-rtp-10536-udp:
+    name: PBX-RTP UDP 10536
+    protocol: udp
+    proxy-port: 10536
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10536
+
+  resource-pbx-rtp-10537-udp:
+    name: PBX-RTP UDP 10537
+    protocol: udp
+    proxy-port: 10537
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10537
+
+  resource-pbx-rtp-10538-udp:
+    name: PBX-RTP UDP 10538
+    protocol: udp
+    proxy-port: 10538
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10538
+
+  resource-pbx-rtp-10539-udp:
+    name: PBX-RTP UDP 10539
+    protocol: udp
+    proxy-port: 10539
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10539
+
+  resource-pbx-rtp-10540-udp:
+    name: PBX-RTP UDP 10540
+    protocol: udp
+    proxy-port: 10540
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10540
+
+  resource-pbx-rtp-10541-udp:
+    name: PBX-RTP UDP 10541
+    protocol: udp
+    proxy-port: 10541
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10541
+
+  resource-pbx-rtp-10542-udp:
+    name: PBX-RTP UDP 10542
+    protocol: udp
+    proxy-port: 10542
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10542
+
+  resource-pbx-rtp-10543-udp:
+    name: PBX-RTP UDP 10543
+    protocol: udp
+    proxy-port: 10543
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10543
+
+  resource-pbx-rtp-10544-udp:
+    name: PBX-RTP UDP 10544
+    protocol: udp
+    proxy-port: 10544
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10544
+
+  resource-pbx-rtp-10545-udp:
+    name: PBX-RTP UDP 10545
+    protocol: udp
+    proxy-port: 10545
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10545
+
+  resource-pbx-rtp-10546-udp:
+    name: PBX-RTP UDP 10546
+    protocol: udp
+    proxy-port: 10546
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10546
+
+  resource-pbx-rtp-10547-udp:
+    name: PBX-RTP UDP 10547
+    protocol: udp
+    proxy-port: 10547
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10547
+
+  resource-pbx-rtp-10548-udp:
+    name: PBX-RTP UDP 10548
+    protocol: udp
+    proxy-port: 10548
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10548
+
+  resource-pbx-rtp-10549-udp:
+    name: PBX-RTP UDP 10549
+    protocol: udp
+    proxy-port: 10549
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10549
+
+  resource-pbx-rtp-10550-udp:
+    name: PBX-RTP UDP 10550
+    protocol: udp
+    proxy-port: 10550
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10550
+
+  resource-pbx-rtp-10551-udp:
+    name: PBX-RTP UDP 10551
+    protocol: udp
+    proxy-port: 10551
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10551
+
+  resource-pbx-rtp-10552-udp:
+    name: PBX-RTP UDP 10552
+    protocol: udp
+    proxy-port: 10552
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10552
+
+  resource-pbx-rtp-10553-udp:
+    name: PBX-RTP UDP 10553
+    protocol: udp
+    proxy-port: 10553
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10553
+
+  resource-pbx-rtp-10554-udp:
+    name: PBX-RTP UDP 10554
+    protocol: udp
+    proxy-port: 10554
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10554
+
+  resource-pbx-rtp-10555-udp:
+    name: PBX-RTP UDP 10555
+    protocol: udp
+    proxy-port: 10555
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10555
+
+  resource-pbx-rtp-10556-udp:
+    name: PBX-RTP UDP 10556
+    protocol: udp
+    proxy-port: 10556
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10556
+
+  resource-pbx-rtp-10557-udp:
+    name: PBX-RTP UDP 10557
+    protocol: udp
+    proxy-port: 10557
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10557
+
+  resource-pbx-rtp-10558-udp:
+    name: PBX-RTP UDP 10558
+    protocol: udp
+    proxy-port: 10558
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10558
+
+  resource-pbx-rtp-10559-udp:
+    name: PBX-RTP UDP 10559
+    protocol: udp
+    proxy-port: 10559
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10559
+
+  resource-pbx-rtp-10560-udp:
+    name: PBX-RTP UDP 10560
+    protocol: udp
+    proxy-port: 10560
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10560
+
+  resource-pbx-rtp-10561-udp:
+    name: PBX-RTP UDP 10561
+    protocol: udp
+    proxy-port: 10561
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10561
+
+  resource-pbx-rtp-10562-udp:
+    name: PBX-RTP UDP 10562
+    protocol: udp
+    proxy-port: 10562
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10562
+
+  resource-pbx-rtp-10563-udp:
+    name: PBX-RTP UDP 10563
+    protocol: udp
+    proxy-port: 10563
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10563
+
+  resource-pbx-rtp-10564-udp:
+    name: PBX-RTP UDP 10564
+    protocol: udp
+    proxy-port: 10564
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10564
+
+  resource-pbx-rtp-10565-udp:
+    name: PBX-RTP UDP 10565
+    protocol: udp
+    proxy-port: 10565
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10565
+
+  resource-pbx-rtp-10566-udp:
+    name: PBX-RTP UDP 10566
+    protocol: udp
+    proxy-port: 10566
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10566
+
+  resource-pbx-rtp-10567-udp:
+    name: PBX-RTP UDP 10567
+    protocol: udp
+    proxy-port: 10567
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10567
+
+  resource-pbx-rtp-10568-udp:
+    name: PBX-RTP UDP 10568
+    protocol: udp
+    proxy-port: 10568
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10568
+
+  resource-pbx-rtp-10569-udp:
+    name: PBX-RTP UDP 10569
+    protocol: udp
+    proxy-port: 10569
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10569
+
+  resource-pbx-rtp-10570-udp:
+    name: PBX-RTP UDP 10570
+    protocol: udp
+    proxy-port: 10570
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10570
+
+  resource-pbx-rtp-10571-udp:
+    name: PBX-RTP UDP 10571
+    protocol: udp
+    proxy-port: 10571
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10571
+
+  resource-pbx-rtp-10572-udp:
+    name: PBX-RTP UDP 10572
+    protocol: udp
+    proxy-port: 10572
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10572
+
+  resource-pbx-rtp-10573-udp:
+    name: PBX-RTP UDP 10573
+    protocol: udp
+    proxy-port: 10573
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10573
+
+  resource-pbx-rtp-10574-udp:
+    name: PBX-RTP UDP 10574
+    protocol: udp
+    proxy-port: 10574
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10574
+
+  resource-pbx-rtp-10575-udp:
+    name: PBX-RTP UDP 10575
+    protocol: udp
+    proxy-port: 10575
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10575
+
+  resource-pbx-rtp-10576-udp:
+    name: PBX-RTP UDP 10576
+    protocol: udp
+    proxy-port: 10576
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10576
+
+  resource-pbx-rtp-10577-udp:
+    name: PBX-RTP UDP 10577
+    protocol: udp
+    proxy-port: 10577
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10577
+
+  resource-pbx-rtp-10578-udp:
+    name: PBX-RTP UDP 10578
+    protocol: udp
+    proxy-port: 10578
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10578
+
+  resource-pbx-rtp-10579-udp:
+    name: PBX-RTP UDP 10579
+    protocol: udp
+    proxy-port: 10579
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10579
+
+  resource-pbx-rtp-10580-udp:
+    name: PBX-RTP UDP 10580
+    protocol: udp
+    proxy-port: 10580
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10580
+
+  resource-pbx-rtp-10581-udp:
+    name: PBX-RTP UDP 10581
+    protocol: udp
+    proxy-port: 10581
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10581
+
+  resource-pbx-rtp-10582-udp:
+    name: PBX-RTP UDP 10582
+    protocol: udp
+    proxy-port: 10582
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10582
+
+  resource-pbx-rtp-10583-udp:
+    name: PBX-RTP UDP 10583
+    protocol: udp
+    proxy-port: 10583
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10583
+
+  resource-pbx-rtp-10584-udp:
+    name: PBX-RTP UDP 10584
+    protocol: udp
+    proxy-port: 10584
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10584
+
+  resource-pbx-rtp-10585-udp:
+    name: PBX-RTP UDP 10585
+    protocol: udp
+    proxy-port: 10585
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10585
+
+  resource-pbx-rtp-10586-udp:
+    name: PBX-RTP UDP 10586
+    protocol: udp
+    proxy-port: 10586
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10586
+
+  resource-pbx-rtp-10587-udp:
+    name: PBX-RTP UDP 10587
+    protocol: udp
+    proxy-port: 10587
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10587
+
+  resource-pbx-rtp-10588-udp:
+    name: PBX-RTP UDP 10588
+    protocol: udp
+    proxy-port: 10588
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10588
+
+  resource-pbx-rtp-10589-udp:
+    name: PBX-RTP UDP 10589
+    protocol: udp
+    proxy-port: 10589
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10589
+
+  resource-pbx-rtp-10590-udp:
+    name: PBX-RTP UDP 10590
+    protocol: udp
+    proxy-port: 10590
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10590
+
+  resource-pbx-rtp-10591-udp:
+    name: PBX-RTP UDP 10591
+    protocol: udp
+    proxy-port: 10591
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10591
+
+  resource-pbx-rtp-10592-udp:
+    name: PBX-RTP UDP 10592
+    protocol: udp
+    proxy-port: 10592
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10592
+
+  resource-pbx-rtp-10593-udp:
+    name: PBX-RTP UDP 10593
+    protocol: udp
+    proxy-port: 10593
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10593
+
+  resource-pbx-rtp-10594-udp:
+    name: PBX-RTP UDP 10594
+    protocol: udp
+    proxy-port: 10594
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10594
+
+  resource-pbx-rtp-10595-udp:
+    name: PBX-RTP UDP 10595
+    protocol: udp
+    proxy-port: 10595
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10595
+
+  resource-pbx-rtp-10596-udp:
+    name: PBX-RTP UDP 10596
+    protocol: udp
+    proxy-port: 10596
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10596
+
+  resource-pbx-rtp-10597-udp:
+    name: PBX-RTP UDP 10597
+    protocol: udp
+    proxy-port: 10597
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10597
+
+  resource-pbx-rtp-10598-udp:
+    name: PBX-RTP UDP 10598
+    protocol: udp
+    proxy-port: 10598
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10598
+
+  resource-pbx-rtp-10599-udp:
+    name: PBX-RTP UDP 10599
+    protocol: udp
+    proxy-port: 10599
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10599
+
+  resource-pbx-rtp-10600-udp:
+    name: PBX-RTP UDP 10600
+    protocol: udp
+    proxy-port: 10600
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10600
+
+  resource-pbx-rtp-10601-udp:
+    name: PBX-RTP UDP 10601
+    protocol: udp
+    proxy-port: 10601
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10601
+
+  resource-pbx-rtp-10602-udp:
+    name: PBX-RTP UDP 10602
+    protocol: udp
+    proxy-port: 10602
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10602
+
+  resource-pbx-rtp-10603-udp:
+    name: PBX-RTP UDP 10603
+    protocol: udp
+    proxy-port: 10603
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10603
+
+  resource-pbx-rtp-10604-udp:
+    name: PBX-RTP UDP 10604
+    protocol: udp
+    proxy-port: 10604
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10604
+
+  resource-pbx-rtp-10605-udp:
+    name: PBX-RTP UDP 10605
+    protocol: udp
+    proxy-port: 10605
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10605
+
+  resource-pbx-rtp-10606-udp:
+    name: PBX-RTP UDP 10606
+    protocol: udp
+    proxy-port: 10606
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10606
+
+  resource-pbx-rtp-10607-udp:
+    name: PBX-RTP UDP 10607
+    protocol: udp
+    proxy-port: 10607
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10607
+
+  resource-pbx-rtp-10608-udp:
+    name: PBX-RTP UDP 10608
+    protocol: udp
+    proxy-port: 10608
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10608
+
+  resource-pbx-rtp-10609-udp:
+    name: PBX-RTP UDP 10609
+    protocol: udp
+    proxy-port: 10609
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10609
+
+  resource-pbx-rtp-10610-udp:
+    name: PBX-RTP UDP 10610
+    protocol: udp
+    proxy-port: 10610
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10610
+
+  resource-pbx-rtp-10611-udp:
+    name: PBX-RTP UDP 10611
+    protocol: udp
+    proxy-port: 10611
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10611
+
+  resource-pbx-rtp-10612-udp:
+    name: PBX-RTP UDP 10612
+    protocol: udp
+    proxy-port: 10612
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10612
+
+  resource-pbx-rtp-10613-udp:
+    name: PBX-RTP UDP 10613
+    protocol: udp
+    proxy-port: 10613
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10613
+
+  resource-pbx-rtp-10614-udp:
+    name: PBX-RTP UDP 10614
+    protocol: udp
+    proxy-port: 10614
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10614
+
+  resource-pbx-rtp-10615-udp:
+    name: PBX-RTP UDP 10615
+    protocol: udp
+    proxy-port: 10615
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10615
+
+  resource-pbx-rtp-10616-udp:
+    name: PBX-RTP UDP 10616
+    protocol: udp
+    proxy-port: 10616
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10616
+
+  resource-pbx-rtp-10617-udp:
+    name: PBX-RTP UDP 10617
+    protocol: udp
+    proxy-port: 10617
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10617
+
+  resource-pbx-rtp-10618-udp:
+    name: PBX-RTP UDP 10618
+    protocol: udp
+    proxy-port: 10618
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10618
+
+  resource-pbx-rtp-10619-udp:
+    name: PBX-RTP UDP 10619
+    protocol: udp
+    proxy-port: 10619
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10619
+
+  resource-pbx-rtp-10620-udp:
+    name: PBX-RTP UDP 10620
+    protocol: udp
+    proxy-port: 10620
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10620
+
+  resource-pbx-rtp-10621-udp:
+    name: PBX-RTP UDP 10621
+    protocol: udp
+    proxy-port: 10621
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10621
+
+  resource-pbx-rtp-10622-udp:
+    name: PBX-RTP UDP 10622
+    protocol: udp
+    proxy-port: 10622
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10622
+
+  resource-pbx-rtp-10623-udp:
+    name: PBX-RTP UDP 10623
+    protocol: udp
+    proxy-port: 10623
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10623
+
+  resource-pbx-rtp-10624-udp:
+    name: PBX-RTP UDP 10624
+    protocol: udp
+    proxy-port: 10624
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10624
+
+  resource-pbx-rtp-10625-udp:
+    name: PBX-RTP UDP 10625
+    protocol: udp
+    proxy-port: 10625
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10625
+
+  resource-pbx-rtp-10626-udp:
+    name: PBX-RTP UDP 10626
+    protocol: udp
+    proxy-port: 10626
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10626
+
+  resource-pbx-rtp-10627-udp:
+    name: PBX-RTP UDP 10627
+    protocol: udp
+    proxy-port: 10627
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10627
+
+  resource-pbx-rtp-10628-udp:
+    name: PBX-RTP UDP 10628
+    protocol: udp
+    proxy-port: 10628
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10628
+
+  resource-pbx-rtp-10629-udp:
+    name: PBX-RTP UDP 10629
+    protocol: udp
+    proxy-port: 10629
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10629
+
+  resource-pbx-rtp-10630-udp:
+    name: PBX-RTP UDP 10630
+    protocol: udp
+    proxy-port: 10630
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10630
+
+  resource-pbx-rtp-10631-udp:
+    name: PBX-RTP UDP 10631
+    protocol: udp
+    proxy-port: 10631
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10631
+
+  resource-pbx-rtp-10632-udp:
+    name: PBX-RTP UDP 10632
+    protocol: udp
+    proxy-port: 10632
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10632
+
+  resource-pbx-rtp-10633-udp:
+    name: PBX-RTP UDP 10633
+    protocol: udp
+    proxy-port: 10633
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10633
+
+  resource-pbx-rtp-10634-udp:
+    name: PBX-RTP UDP 10634
+    protocol: udp
+    proxy-port: 10634
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10634
+
+  resource-pbx-rtp-10635-udp:
+    name: PBX-RTP UDP 10635
+    protocol: udp
+    proxy-port: 10635
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10635
+
+  resource-pbx-rtp-10636-udp:
+    name: PBX-RTP UDP 10636
+    protocol: udp
+    proxy-port: 10636
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10636
+
+  resource-pbx-rtp-10637-udp:
+    name: PBX-RTP UDP 10637
+    protocol: udp
+    proxy-port: 10637
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10637
+
+  resource-pbx-rtp-10638-udp:
+    name: PBX-RTP UDP 10638
+    protocol: udp
+    proxy-port: 10638
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10638
+
+  resource-pbx-rtp-10639-udp:
+    name: PBX-RTP UDP 10639
+    protocol: udp
+    proxy-port: 10639
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10639
+
+  resource-pbx-rtp-10640-udp:
+    name: PBX-RTP UDP 10640
+    protocol: udp
+    proxy-port: 10640
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10640
+
+  resource-pbx-rtp-10641-udp:
+    name: PBX-RTP UDP 10641
+    protocol: udp
+    proxy-port: 10641
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10641
+
+  resource-pbx-rtp-10642-udp:
+    name: PBX-RTP UDP 10642
+    protocol: udp
+    proxy-port: 10642
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10642
+
+  resource-pbx-rtp-10643-udp:
+    name: PBX-RTP UDP 10643
+    protocol: udp
+    proxy-port: 10643
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10643
+
+  resource-pbx-rtp-10644-udp:
+    name: PBX-RTP UDP 10644
+    protocol: udp
+    proxy-port: 10644
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10644
+
+  resource-pbx-rtp-10645-udp:
+    name: PBX-RTP UDP 10645
+    protocol: udp
+    proxy-port: 10645
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10645
+
+  resource-pbx-rtp-10646-udp:
+    name: PBX-RTP UDP 10646
+    protocol: udp
+    proxy-port: 10646
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10646
+
+  resource-pbx-rtp-10647-udp:
+    name: PBX-RTP UDP 10647
+    protocol: udp
+    proxy-port: 10647
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10647
+
+  resource-pbx-rtp-10648-udp:
+    name: PBX-RTP UDP 10648
+    protocol: udp
+    proxy-port: 10648
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10648
+
+  resource-pbx-rtp-10649-udp:
+    name: PBX-RTP UDP 10649
+    protocol: udp
+    proxy-port: 10649
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10649
+
+  resource-pbx-rtp-10650-udp:
+    name: PBX-RTP UDP 10650
+    protocol: udp
+    proxy-port: 10650
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10650
+
+  resource-pbx-rtp-10651-udp:
+    name: PBX-RTP UDP 10651
+    protocol: udp
+    proxy-port: 10651
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10651
+
+  resource-pbx-rtp-10652-udp:
+    name: PBX-RTP UDP 10652
+    protocol: udp
+    proxy-port: 10652
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10652
+
+  resource-pbx-rtp-10653-udp:
+    name: PBX-RTP UDP 10653
+    protocol: udp
+    proxy-port: 10653
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10653
+
+  resource-pbx-rtp-10654-udp:
+    name: PBX-RTP UDP 10654
+    protocol: udp
+    proxy-port: 10654
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10654
+
+  resource-pbx-rtp-10655-udp:
+    name: PBX-RTP UDP 10655
+    protocol: udp
+    proxy-port: 10655
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10655
+
+  resource-pbx-rtp-10656-udp:
+    name: PBX-RTP UDP 10656
+    protocol: udp
+    proxy-port: 10656
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10656
+
+  resource-pbx-rtp-10657-udp:
+    name: PBX-RTP UDP 10657
+    protocol: udp
+    proxy-port: 10657
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10657
+
+  resource-pbx-rtp-10658-udp:
+    name: PBX-RTP UDP 10658
+    protocol: udp
+    proxy-port: 10658
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10658
+
+  resource-pbx-rtp-10659-udp:
+    name: PBX-RTP UDP 10659
+    protocol: udp
+    proxy-port: 10659
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10659
+
+  resource-pbx-rtp-10660-udp:
+    name: PBX-RTP UDP 10660
+    protocol: udp
+    proxy-port: 10660
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10660
+
+  resource-pbx-rtp-10661-udp:
+    name: PBX-RTP UDP 10661
+    protocol: udp
+    proxy-port: 10661
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10661
+
+  resource-pbx-rtp-10662-udp:
+    name: PBX-RTP UDP 10662
+    protocol: udp
+    proxy-port: 10662
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10662
+
+  resource-pbx-rtp-10663-udp:
+    name: PBX-RTP UDP 10663
+    protocol: udp
+    proxy-port: 10663
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10663
+
+  resource-pbx-rtp-10664-udp:
+    name: PBX-RTP UDP 10664
+    protocol: udp
+    proxy-port: 10664
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10664
+
+  resource-pbx-rtp-10665-udp:
+    name: PBX-RTP UDP 10665
+    protocol: udp
+    proxy-port: 10665
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10665
+
+  resource-pbx-rtp-10666-udp:
+    name: PBX-RTP UDP 10666
+    protocol: udp
+    proxy-port: 10666
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10666
+
+  resource-pbx-rtp-10667-udp:
+    name: PBX-RTP UDP 10667
+    protocol: udp
+    proxy-port: 10667
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10667
+
+  resource-pbx-rtp-10668-udp:
+    name: PBX-RTP UDP 10668
+    protocol: udp
+    proxy-port: 10668
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10668
+
+  resource-pbx-rtp-10669-udp:
+    name: PBX-RTP UDP 10669
+    protocol: udp
+    proxy-port: 10669
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10669
+
+  resource-pbx-rtp-10670-udp:
+    name: PBX-RTP UDP 10670
+    protocol: udp
+    proxy-port: 10670
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10670
+
+  resource-pbx-rtp-10671-udp:
+    name: PBX-RTP UDP 10671
+    protocol: udp
+    proxy-port: 10671
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10671
+
+  resource-pbx-rtp-10672-udp:
+    name: PBX-RTP UDP 10672
+    protocol: udp
+    proxy-port: 10672
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10672
+
+  resource-pbx-rtp-10673-udp:
+    name: PBX-RTP UDP 10673
+    protocol: udp
+    proxy-port: 10673
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10673
+
+  resource-pbx-rtp-10674-udp:
+    name: PBX-RTP UDP 10674
+    protocol: udp
+    proxy-port: 10674
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10674
+
+  resource-pbx-rtp-10675-udp:
+    name: PBX-RTP UDP 10675
+    protocol: udp
+    proxy-port: 10675
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10675
+
+  resource-pbx-rtp-10676-udp:
+    name: PBX-RTP UDP 10676
+    protocol: udp
+    proxy-port: 10676
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10676
+
+  resource-pbx-rtp-10677-udp:
+    name: PBX-RTP UDP 10677
+    protocol: udp
+    proxy-port: 10677
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10677
+
+  resource-pbx-rtp-10678-udp:
+    name: PBX-RTP UDP 10678
+    protocol: udp
+    proxy-port: 10678
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10678
+
+  resource-pbx-rtp-10679-udp:
+    name: PBX-RTP UDP 10679
+    protocol: udp
+    proxy-port: 10679
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10679
+
+  resource-pbx-rtp-10680-udp:
+    name: PBX-RTP UDP 10680
+    protocol: udp
+    proxy-port: 10680
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10680
+
+  resource-pbx-rtp-10681-udp:
+    name: PBX-RTP UDP 10681
+    protocol: udp
+    proxy-port: 10681
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10681
+
+  resource-pbx-rtp-10682-udp:
+    name: PBX-RTP UDP 10682
+    protocol: udp
+    proxy-port: 10682
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10682
+
+  resource-pbx-rtp-10683-udp:
+    name: PBX-RTP UDP 10683
+    protocol: udp
+    proxy-port: 10683
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10683
+
+  resource-pbx-rtp-10684-udp:
+    name: PBX-RTP UDP 10684
+    protocol: udp
+    proxy-port: 10684
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10684
+
+  resource-pbx-rtp-10685-udp:
+    name: PBX-RTP UDP 10685
+    protocol: udp
+    proxy-port: 10685
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10685
+
+  resource-pbx-rtp-10686-udp:
+    name: PBX-RTP UDP 10686
+    protocol: udp
+    proxy-port: 10686
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10686
+
+  resource-pbx-rtp-10687-udp:
+    name: PBX-RTP UDP 10687
+    protocol: udp
+    proxy-port: 10687
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10687
+
+  resource-pbx-rtp-10688-udp:
+    name: PBX-RTP UDP 10688
+    protocol: udp
+    proxy-port: 10688
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10688
+
+  resource-pbx-rtp-10689-udp:
+    name: PBX-RTP UDP 10689
+    protocol: udp
+    proxy-port: 10689
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10689
+
+  resource-pbx-rtp-10690-udp:
+    name: PBX-RTP UDP 10690
+    protocol: udp
+    proxy-port: 10690
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10690
+
+  resource-pbx-rtp-10691-udp:
+    name: PBX-RTP UDP 10691
+    protocol: udp
+    proxy-port: 10691
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10691
+
+  resource-pbx-rtp-10692-udp:
+    name: PBX-RTP UDP 10692
+    protocol: udp
+    proxy-port: 10692
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10692
+
+  resource-pbx-rtp-10693-udp:
+    name: PBX-RTP UDP 10693
+    protocol: udp
+    proxy-port: 10693
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10693
+
+  resource-pbx-rtp-10694-udp:
+    name: PBX-RTP UDP 10694
+    protocol: udp
+    proxy-port: 10694
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10694
+
+  resource-pbx-rtp-10695-udp:
+    name: PBX-RTP UDP 10695
+    protocol: udp
+    proxy-port: 10695
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10695
+
+  resource-pbx-rtp-10696-udp:
+    name: PBX-RTP UDP 10696
+    protocol: udp
+    proxy-port: 10696
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10696
+
+  resource-pbx-rtp-10697-udp:
+    name: PBX-RTP UDP 10697
+    protocol: udp
+    proxy-port: 10697
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10697
+
+  resource-pbx-rtp-10698-udp:
+    name: PBX-RTP UDP 10698
+    protocol: udp
+    proxy-port: 10698
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10698
+
+  resource-pbx-rtp-10699-udp:
+    name: PBX-RTP UDP 10699
+    protocol: udp
+    proxy-port: 10699
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10699
+
+  resource-pbx-rtp-10700-udp:
+    name: PBX-RTP UDP 10700
+    protocol: udp
+    proxy-port: 10700
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10700
+
+  resource-pbx-rtp-10701-udp:
+    name: PBX-RTP UDP 10701
+    protocol: udp
+    proxy-port: 10701
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10701
+
+  resource-pbx-rtp-10702-udp:
+    name: PBX-RTP UDP 10702
+    protocol: udp
+    proxy-port: 10702
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10702
+
+  resource-pbx-rtp-10703-udp:
+    name: PBX-RTP UDP 10703
+    protocol: udp
+    proxy-port: 10703
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10703
+
+  resource-pbx-rtp-10704-udp:
+    name: PBX-RTP UDP 10704
+    protocol: udp
+    proxy-port: 10704
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10704
+
+  resource-pbx-rtp-10705-udp:
+    name: PBX-RTP UDP 10705
+    protocol: udp
+    proxy-port: 10705
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10705
+
+  resource-pbx-rtp-10706-udp:
+    name: PBX-RTP UDP 10706
+    protocol: udp
+    proxy-port: 10706
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10706
+
+  resource-pbx-rtp-10707-udp:
+    name: PBX-RTP UDP 10707
+    protocol: udp
+    proxy-port: 10707
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10707
+
+  resource-pbx-rtp-10708-udp:
+    name: PBX-RTP UDP 10708
+    protocol: udp
+    proxy-port: 10708
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10708
+
+  resource-pbx-rtp-10709-udp:
+    name: PBX-RTP UDP 10709
+    protocol: udp
+    proxy-port: 10709
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10709
+
+  resource-pbx-rtp-10710-udp:
+    name: PBX-RTP UDP 10710
+    protocol: udp
+    proxy-port: 10710
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10710
+
+  resource-pbx-rtp-10711-udp:
+    name: PBX-RTP UDP 10711
+    protocol: udp
+    proxy-port: 10711
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10711
+
+  resource-pbx-rtp-10712-udp:
+    name: PBX-RTP UDP 10712
+    protocol: udp
+    proxy-port: 10712
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10712
+
+  resource-pbx-rtp-10713-udp:
+    name: PBX-RTP UDP 10713
+    protocol: udp
+    proxy-port: 10713
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10713
+
+  resource-pbx-rtp-10714-udp:
+    name: PBX-RTP UDP 10714
+    protocol: udp
+    proxy-port: 10714
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10714
+
+  resource-pbx-rtp-10715-udp:
+    name: PBX-RTP UDP 10715
+    protocol: udp
+    proxy-port: 10715
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10715
+
+  resource-pbx-rtp-10716-udp:
+    name: PBX-RTP UDP 10716
+    protocol: udp
+    proxy-port: 10716
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10716
+
+  resource-pbx-rtp-10717-udp:
+    name: PBX-RTP UDP 10717
+    protocol: udp
+    proxy-port: 10717
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10717
+
+  resource-pbx-rtp-10718-udp:
+    name: PBX-RTP UDP 10718
+    protocol: udp
+    proxy-port: 10718
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10718
+
+  resource-pbx-rtp-10719-udp:
+    name: PBX-RTP UDP 10719
+    protocol: udp
+    proxy-port: 10719
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10719
+
+  resource-pbx-rtp-10720-udp:
+    name: PBX-RTP UDP 10720
+    protocol: udp
+    proxy-port: 10720
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10720
+
+  resource-pbx-rtp-10721-udp:
+    name: PBX-RTP UDP 10721
+    protocol: udp
+    proxy-port: 10721
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10721
+
+  resource-pbx-rtp-10722-udp:
+    name: PBX-RTP UDP 10722
+    protocol: udp
+    proxy-port: 10722
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10722
+
+  resource-pbx-rtp-10723-udp:
+    name: PBX-RTP UDP 10723
+    protocol: udp
+    proxy-port: 10723
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10723
+
+  resource-pbx-rtp-10724-udp:
+    name: PBX-RTP UDP 10724
+    protocol: udp
+    proxy-port: 10724
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10724
+
+  resource-pbx-rtp-10725-udp:
+    name: PBX-RTP UDP 10725
+    protocol: udp
+    proxy-port: 10725
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10725
+
+  resource-pbx-rtp-10726-udp:
+    name: PBX-RTP UDP 10726
+    protocol: udp
+    proxy-port: 10726
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10726
+
+  resource-pbx-rtp-10727-udp:
+    name: PBX-RTP UDP 10727
+    protocol: udp
+    proxy-port: 10727
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10727
+
+  resource-pbx-rtp-10728-udp:
+    name: PBX-RTP UDP 10728
+    protocol: udp
+    proxy-port: 10728
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10728
+
+  resource-pbx-rtp-10729-udp:
+    name: PBX-RTP UDP 10729
+    protocol: udp
+    proxy-port: 10729
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10729
+
+  resource-pbx-rtp-10730-udp:
+    name: PBX-RTP UDP 10730
+    protocol: udp
+    proxy-port: 10730
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10730
+
+  resource-pbx-rtp-10731-udp:
+    name: PBX-RTP UDP 10731
+    protocol: udp
+    proxy-port: 10731
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10731
+
+  resource-pbx-rtp-10732-udp:
+    name: PBX-RTP UDP 10732
+    protocol: udp
+    proxy-port: 10732
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10732
+
+  resource-pbx-rtp-10733-udp:
+    name: PBX-RTP UDP 10733
+    protocol: udp
+    proxy-port: 10733
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10733
+
+  resource-pbx-rtp-10734-udp:
+    name: PBX-RTP UDP 10734
+    protocol: udp
+    proxy-port: 10734
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10734
+
+  resource-pbx-rtp-10735-udp:
+    name: PBX-RTP UDP 10735
+    protocol: udp
+    proxy-port: 10735
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10735
+
+  resource-pbx-rtp-10736-udp:
+    name: PBX-RTP UDP 10736
+    protocol: udp
+    proxy-port: 10736
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10736
+
+  resource-pbx-rtp-10737-udp:
+    name: PBX-RTP UDP 10737
+    protocol: udp
+    proxy-port: 10737
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10737
+
+  resource-pbx-rtp-10738-udp:
+    name: PBX-RTP UDP 10738
+    protocol: udp
+    proxy-port: 10738
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10738
+
+  resource-pbx-rtp-10739-udp:
+    name: PBX-RTP UDP 10739
+    protocol: udp
+    proxy-port: 10739
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10739
+
+  resource-pbx-rtp-10740-udp:
+    name: PBX-RTP UDP 10740
+    protocol: udp
+    proxy-port: 10740
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10740
+
+  resource-pbx-rtp-10741-udp:
+    name: PBX-RTP UDP 10741
+    protocol: udp
+    proxy-port: 10741
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10741
+
+  resource-pbx-rtp-10742-udp:
+    name: PBX-RTP UDP 10742
+    protocol: udp
+    proxy-port: 10742
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10742
+
+  resource-pbx-rtp-10743-udp:
+    name: PBX-RTP UDP 10743
+    protocol: udp
+    proxy-port: 10743
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10743
+
+  resource-pbx-rtp-10744-udp:
+    name: PBX-RTP UDP 10744
+    protocol: udp
+    proxy-port: 10744
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10744
+
+  resource-pbx-rtp-10745-udp:
+    name: PBX-RTP UDP 10745
+    protocol: udp
+    proxy-port: 10745
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10745
+
+  resource-pbx-rtp-10746-udp:
+    name: PBX-RTP UDP 10746
+    protocol: udp
+    proxy-port: 10746
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10746
+
+  resource-pbx-rtp-10747-udp:
+    name: PBX-RTP UDP 10747
+    protocol: udp
+    proxy-port: 10747
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10747
+
+  resource-pbx-rtp-10748-udp:
+    name: PBX-RTP UDP 10748
+    protocol: udp
+    proxy-port: 10748
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10748
+
+  resource-pbx-rtp-10749-udp:
+    name: PBX-RTP UDP 10749
+    protocol: udp
+    proxy-port: 10749
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10749
+
+  resource-pbx-rtp-10750-udp:
+    name: PBX-RTP UDP 10750
+    protocol: udp
+    proxy-port: 10750
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10750
+
+  resource-pbx-rtp-10751-udp:
+    name: PBX-RTP UDP 10751
+    protocol: udp
+    proxy-port: 10751
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10751
+
+  resource-pbx-rtp-10752-udp:
+    name: PBX-RTP UDP 10752
+    protocol: udp
+    proxy-port: 10752
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10752
+
+  resource-pbx-rtp-10753-udp:
+    name: PBX-RTP UDP 10753
+    protocol: udp
+    proxy-port: 10753
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10753
+
+  resource-pbx-rtp-10754-udp:
+    name: PBX-RTP UDP 10754
+    protocol: udp
+    proxy-port: 10754
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10754
+
+  resource-pbx-rtp-10755-udp:
+    name: PBX-RTP UDP 10755
+    protocol: udp
+    proxy-port: 10755
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10755
+
+  resource-pbx-rtp-10756-udp:
+    name: PBX-RTP UDP 10756
+    protocol: udp
+    proxy-port: 10756
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10756
+
+  resource-pbx-rtp-10757-udp:
+    name: PBX-RTP UDP 10757
+    protocol: udp
+    proxy-port: 10757
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10757
+
+  resource-pbx-rtp-10758-udp:
+    name: PBX-RTP UDP 10758
+    protocol: udp
+    proxy-port: 10758
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10758
+
+  resource-pbx-rtp-10759-udp:
+    name: PBX-RTP UDP 10759
+    protocol: udp
+    proxy-port: 10759
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10759
+
+  resource-pbx-rtp-10760-udp:
+    name: PBX-RTP UDP 10760
+    protocol: udp
+    proxy-port: 10760
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10760
+
+  resource-pbx-rtp-10761-udp:
+    name: PBX-RTP UDP 10761
+    protocol: udp
+    proxy-port: 10761
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10761
+
+  resource-pbx-rtp-10762-udp:
+    name: PBX-RTP UDP 10762
+    protocol: udp
+    proxy-port: 10762
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10762
+
+  resource-pbx-rtp-10763-udp:
+    name: PBX-RTP UDP 10763
+    protocol: udp
+    proxy-port: 10763
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10763
+
+  resource-pbx-rtp-10764-udp:
+    name: PBX-RTP UDP 10764
+    protocol: udp
+    proxy-port: 10764
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10764
+
+  resource-pbx-rtp-10765-udp:
+    name: PBX-RTP UDP 10765
+    protocol: udp
+    proxy-port: 10765
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10765
+
+  resource-pbx-rtp-10766-udp:
+    name: PBX-RTP UDP 10766
+    protocol: udp
+    proxy-port: 10766
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10766
+
+  resource-pbx-rtp-10767-udp:
+    name: PBX-RTP UDP 10767
+    protocol: udp
+    proxy-port: 10767
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10767
+
+  resource-pbx-rtp-10768-udp:
+    name: PBX-RTP UDP 10768
+    protocol: udp
+    proxy-port: 10768
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10768
+
+  resource-pbx-rtp-10769-udp:
+    name: PBX-RTP UDP 10769
+    protocol: udp
+    proxy-port: 10769
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10769
+
+  resource-pbx-rtp-10770-udp:
+    name: PBX-RTP UDP 10770
+    protocol: udp
+    proxy-port: 10770
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10770
+
+  resource-pbx-rtp-10771-udp:
+    name: PBX-RTP UDP 10771
+    protocol: udp
+    proxy-port: 10771
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10771
+
+  resource-pbx-rtp-10772-udp:
+    name: PBX-RTP UDP 10772
+    protocol: udp
+    proxy-port: 10772
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10772
+
+  resource-pbx-rtp-10773-udp:
+    name: PBX-RTP UDP 10773
+    protocol: udp
+    proxy-port: 10773
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10773
+
+  resource-pbx-rtp-10774-udp:
+    name: PBX-RTP UDP 10774
+    protocol: udp
+    proxy-port: 10774
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10774
+
+  resource-pbx-rtp-10775-udp:
+    name: PBX-RTP UDP 10775
+    protocol: udp
+    proxy-port: 10775
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10775
+
+  resource-pbx-rtp-10776-udp:
+    name: PBX-RTP UDP 10776
+    protocol: udp
+    proxy-port: 10776
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10776
+
+  resource-pbx-rtp-10777-udp:
+    name: PBX-RTP UDP 10777
+    protocol: udp
+    proxy-port: 10777
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10777
+
+  resource-pbx-rtp-10778-udp:
+    name: PBX-RTP UDP 10778
+    protocol: udp
+    proxy-port: 10778
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10778
+
+  resource-pbx-rtp-10779-udp:
+    name: PBX-RTP UDP 10779
+    protocol: udp
+    proxy-port: 10779
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10779
+
+  resource-pbx-rtp-10780-udp:
+    name: PBX-RTP UDP 10780
+    protocol: udp
+    proxy-port: 10780
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10780
+
+  resource-pbx-rtp-10781-udp:
+    name: PBX-RTP UDP 10781
+    protocol: udp
+    proxy-port: 10781
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10781
+
+  resource-pbx-rtp-10782-udp:
+    name: PBX-RTP UDP 10782
+    protocol: udp
+    proxy-port: 10782
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10782
+
+  resource-pbx-rtp-10783-udp:
+    name: PBX-RTP UDP 10783
+    protocol: udp
+    proxy-port: 10783
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10783
+
+  resource-pbx-rtp-10784-udp:
+    name: PBX-RTP UDP 10784
+    protocol: udp
+    proxy-port: 10784
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10784
+
+  resource-pbx-rtp-10785-udp:
+    name: PBX-RTP UDP 10785
+    protocol: udp
+    proxy-port: 10785
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10785
+
+  resource-pbx-rtp-10786-udp:
+    name: PBX-RTP UDP 10786
+    protocol: udp
+    proxy-port: 10786
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10786
+
+  resource-pbx-rtp-10787-udp:
+    name: PBX-RTP UDP 10787
+    protocol: udp
+    proxy-port: 10787
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10787
+
+  resource-pbx-rtp-10788-udp:
+    name: PBX-RTP UDP 10788
+    protocol: udp
+    proxy-port: 10788
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10788
+
+  resource-pbx-rtp-10789-udp:
+    name: PBX-RTP UDP 10789
+    protocol: udp
+    proxy-port: 10789
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10789
+
+  resource-pbx-rtp-10790-udp:
+    name: PBX-RTP UDP 10790
+    protocol: udp
+    proxy-port: 10790
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10790
+
+  resource-pbx-rtp-10791-udp:
+    name: PBX-RTP UDP 10791
+    protocol: udp
+    proxy-port: 10791
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10791
+
+  resource-pbx-rtp-10792-udp:
+    name: PBX-RTP UDP 10792
+    protocol: udp
+    proxy-port: 10792
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10792
+
+  resource-pbx-rtp-10793-udp:
+    name: PBX-RTP UDP 10793
+    protocol: udp
+    proxy-port: 10793
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10793
+
+  resource-pbx-rtp-10794-udp:
+    name: PBX-RTP UDP 10794
+    protocol: udp
+    proxy-port: 10794
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10794
+
+  resource-pbx-rtp-10795-udp:
+    name: PBX-RTP UDP 10795
+    protocol: udp
+    proxy-port: 10795
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10795
+
+  resource-pbx-rtp-10796-udp:
+    name: PBX-RTP UDP 10796
+    protocol: udp
+    proxy-port: 10796
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10796
+
+  resource-pbx-rtp-10797-udp:
+    name: PBX-RTP UDP 10797
+    protocol: udp
+    proxy-port: 10797
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10797
+
+  resource-pbx-rtp-10798-udp:
+    name: PBX-RTP UDP 10798
+    protocol: udp
+    proxy-port: 10798
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10798
+
+  resource-pbx-rtp-10799-udp:
+    name: PBX-RTP UDP 10799
+    protocol: udp
+    proxy-port: 10799
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10799
+
+  resource-pbx-rtp-10800-udp:
+    name: PBX-RTP UDP 10800
+    protocol: udp
+    proxy-port: 10800
+    targets:
+      - site: eager-pied-kingfisher
+        hostname: 127.0.0.1
+        port: 10800
+
