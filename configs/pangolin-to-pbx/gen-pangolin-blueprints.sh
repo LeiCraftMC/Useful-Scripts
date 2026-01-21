@@ -7,7 +7,7 @@ PORT_RANGE="$4"
 
 if [[ -z "$SERVICE_NAME" || -z "$SITE_NAME" || -z "$HOSTNAME" || -z "$PORT_RANGE" ]]; then
   echo "Usage: $0 <service-name> <site-name> <hostname> <port-range>"
-  echo "Example: $0 MikoPBX stable-dermophis-parviceps 192.168.90.120 10000-10050"
+  echo "Example: $0 MikoPBX stable-dermophis-parviceps 192.168.90.120 10000-10800"
   exit 1
 fi
 
